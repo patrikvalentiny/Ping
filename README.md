@@ -1,1 +1,1 @@
-# Ping
+# Ping (a clone of Pong)
