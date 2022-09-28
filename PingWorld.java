@@ -67,11 +67,7 @@ public class PingWorld extends World
         addObject(life1, WORLD_WIDTH/2 - 100, liveY);
         addObject(life2, WORLD_WIDTH/2 - 150, liveY);
         addObject(life3, WORLD_WIDTH/2 - 200, liveY);
-        /*
-        for (int i=0;i<WORLD_WIDTH/dashSize;i++){
-        bg.fillRect(i*dashSize + dashSpace, WORLD_HEIGHT/2 - 3, dashSize - dashSpace, 6);
-        }
-         */
+
         for (int i=0;i<WORLD_WIDTH/dashSize;i++){
             bg.fillRect(i*dashSize + dashSpace, WORLD_HEIGHT/2 - 3, dashSize - dashSpace, 6);
         }
