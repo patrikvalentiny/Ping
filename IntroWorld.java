@@ -43,6 +43,7 @@ public class IntroWorld extends World
         }
         background.setColor(new Color(255 - timer, 255 - timer, 255 - timer));
         background.fill();
+        
         background.drawImage(new GreenfootImage("PONG", 80, new Color(timer, timer, timer), null), 150, 200);
         background.drawImage(new GreenfootImage("Play for the lives of wombats", 20, new Color(timer, timer, timer), null), 140, 300);
         background.drawImage(new GreenfootImage("Hit <enter> to start game", 30, new Color(timer, timer, timer), null), 120, WORLD_HEIGHT / 2);
