@@ -62,7 +62,6 @@ public class Paddle extends Actor
 
     private void changeDirection(){
         String key = Greenfoot.getKey();
-        ((PingWorld)getWorld()).showText(key, 100, 100);
         if (key != null){
             if (key.equals("left")){
                 if (dx>0){
